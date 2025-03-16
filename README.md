@@ -65,4 +65,11 @@
 
 ![Image](https://github.com/user-attachments/assets/feaf312b-4dc7-4c46-a307-eba5e463a445)
 
+# Practical 11
+![Image](https://github.com/user-attachments/assets/ad2afc45-3937-4e55-8f52-2b6379bbaf5f)
+
+![Image](https://github.com/user-attachments/assets/040e66ab-7880-4a54-8175-9e6794866bce)
+
+# practical 13
+
 ![Image](https://github.com/user-attachments/assets/98a84d49-4f7b-4e04-9cd2-36a327c7fa9c)
