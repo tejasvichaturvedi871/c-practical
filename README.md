@@ -6,3 +6,4 @@
 ![Image](https://github.com/user-attachments/assets/a6a191cc-bd67-422a-8040-3b4a9bf28d6c)
 
 # Practile 3
+![Image](https://github.com/user-attachments/assets/5f292b49-e72b-40c7-94e6-d33d023f4e94)
