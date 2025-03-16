@@ -23,3 +23,8 @@
 ![Image](https://github.com/user-attachments/assets/7ed61c31-67b3-40e2-b562-7abe48c24d71)
 
 ![Image](https://github.com/user-attachments/assets/ef09da2a-13fc-478d-9bd2-ed42a18240eb)
+
+# Practical 7
+![Image](https://github.com/user-attachments/assets/36ad369c-355a-4f9a-8bb2-6e2b71a184a6)
+
+![Image](https://github.com/user-attachments/assets/f2299b5a-363d-4a7c-8544-161bce176bbf)
