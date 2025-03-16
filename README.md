@@ -49,3 +49,10 @@
 ![Image](https://github.com/user-attachments/assets/503c3f50-9120-4fc5-b8f5-24c359c3c5bc)
 
 # Practical 9
+![Image](https://github.com/user-attachments/assets/c47b6497-312e-48b6-97fe-5ec97387c801)
+
+![Image](https://github.com/user-attachments/assets/c7b45149-2bed-443c-8021-3e0211789b9d)
+
+![Image](https://github.com/user-attachments/assets/54c0b1fd-e7c5-4684-8f62-c8648b0987d8)
+
+![Image](https://github.com/user-attachments/assets/338a6cd3-6eda-41b2-bd30-9de40e98f94d)
