@@ -11,46 +11,81 @@ code
 #include <set> 
  
 double seriesSum(int n) { 
+
    double sum=0; 
+   
    for (int i =1; i <= n; i++) {  
+   
       double term 1.0/ pow(1, 1); 
+      
       if ( i% 2==0) {
+      
          sum = term;
+         
       } else { 
+      
          sum += term;
+         
       }
-   } 
+      
+   }
+   
    return sum; 
+   
 } 
+
 int main() {  
+
    int n; 
+   
    cout << "Enter the number of terms: "; 
+   
    cin>>n; 
-   cout "Sum of series: <<< seriesSum(n) endl;  
+   
+   cout "Sum of series: <<< seriesSum(n) endl; 
+   
    return 0; 
+   
 }
+
 
 
 ##2
 #include <iostream> 
+
 #include <vector> 
+
 #include <set> 
 
+
 void removeDuplicates (vector<int>& arr) { 
-     set<int>uniqueElements(arr.begin(), arr.end()):  
+
+     set<int>uniqueElements(arr.begin(), arr.end()): 
+     
      arr.assign(uniqueElements.begin(), uniqueElements.end()); 
+     
 }
+
 int main() { 
+
      vector<int arr (1, 2, 2, 3, 4, 4, 5, 6, 6); 
+     
 
      cout << "Original array: "; 
+     
      for (int num :arr) cout<<num << " ";
+     
 
      removeDuplicates(arr); 
-     cout<< "\nArray after removing duplicates: "; 
+     
+     cout<< "\nArray after removing duplicates: ";
+     
      for (int num arr) cout<< num<<"*; 
+     
       return 0; 
+      
 }
+
 
 
 
