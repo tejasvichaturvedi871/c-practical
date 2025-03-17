@@ -48,6 +48,8 @@ int main() {
    
 }
 
+# Practical 1
+![Image](https://github.com/user-attachments/assets/76ffaa46-ba24-4a1e-9100-9056000e9d63)
 
 
 ##2
