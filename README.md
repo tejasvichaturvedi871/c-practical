@@ -651,131 +651,228 @@ int main() {
             cout << "Invalid choice!"; 
       } 
    } while (choice != 4); 
+   
    return 0; 
+   
 }
 
 
 ##9
 
+
 #include <iostream>   
+
 using namespace std; 
 
+
 class Person { 
+
 protected: 
+
    string name; 
+   
    int age; 
 
+
 public: 
+
    void input() { 
+   
       cout << "Enter name and age:  
+      
       cin >> name >> age; 
+      
    }
+   
    void display() { 
+   
       cout << "Name: "<< name << ", Age: " << age << endl; 
+      
    } 
+   
 }; 
+
 
 class Student public Person { 
+
    string course; 
+   
 
 public: 
+
    void input() { 
+   
       Person::input(); 
+      
       cout << "Enter course: 
+      
       cin >> course; 
+      
    } 
+   
    void display() { 
+   
       Person::display(); 
+      
       cout << "Course: " << course << endl; 
+      
    } 
+   
 }; 
 
+
 class Employee public Person { 
+
    int salary;  
+   
 public: 
+
    void input() {
+   
       Person::input(); 
+      
       cout << "Enter salary: ";  
+      
       cin >> salary; 
+      
    }
+   
    void display() { 
+   
       Person::display(); 
+      
       cout << "Salary: " << salary << endl;
+      
    }
+   
 };
 
+
 int main() { 
+
    Student s; 
+   
    Employee e; 
+   
 
    cout << "Enter student details:\n"; 
+   
    s.input(); 
+   
 
    cout << "Enter employee details:\n"; 
+   
    e.input();
    
+   
    cout << "\nStudent Details:\n"; 
+   
    s.display();
    
+
+   
    cout << "\nEmployee Details:\n"; 
+   
    e.display();
    
+   
    return 0; 
+   
 }
+
 
 
 ##10
 
 #include <iostream> 
+
 using namespace std; 
 
+
 class Triangle { 
+
 public: 
-   // Area with base & height 
+
+   // Area with base & height
+   
    double area(double base, double height) { 
+   
    return 0.5 *base*height; 
+   
    } 
+   
 
    // Area with 3 sides (Heron's formula) 
+   
    double area(double a, double b, double c) { 
+   
       double s (a + b + c) / 2; 
+      
       return sqrt(s* (s-a)*(s-b)*(s-c)); 
+      
    } 
+   
 }; 
 
+
 int main() { 
+
    Triangle t; 
+   
    cout << "Area (Base, Height): " << t.area(5, 10) << endl; 
-   cout << "Area (Three Sides): " << t.area(3, 4, 5) << endl; 
+   
+   cout << "Area (Three Sides): " << t.area(3, 4, 5) << endl;
+   
    return 0;
+   
 }
+
 
    
 ##11
 
 
 #include <iostream> 
+
 #include <stdexcept> 
+
 using namespace std; 
 
+
 class MatrixException: public exception { 
+
 public: 
+
    const char* what() const throw() { 
+   
       return "Matrix dimensions are incompatible!"; 
+      
    } 
+   
 }; 
 
+
 void checkCompatibility(int rows1, int cols1, int rows2, int cols2) { 
+
    if (cols1 != rows2) throw MatrixException(); 
+   
 } 
 
+
 int main() { 
+
    try { 
+   
       checkCompatibility(2, 6, 4, 2); 
+      
    } catch (MatrixException e) { 
+   
       cout << "Eггог: <<<< e.what() << endl; 
+      
    } 
+   
    return 0; 
+   
 }   
 
 
@@ -783,117 +880,205 @@ int main() {
 
 
 #include <iostream> 
+
 #include <stdexcept> 
+
 using namespace std; 
 
+
 class PrimeException: public exception { 
+
 public: 
+
    const char what() const throw() { 
+   
        return "Number must be greater than 11"; 
+       
    } 
+   
 }; 
 
+
 // Function to check if a number is prime 
+
 bool isPrime(int num) { 
+
    if (num < 2) 
+   
       throw PrimeException(); 
+      
    for(int i=2; i*i <=num; i++) { 
+   
       if (num % i == 0) 
+      
          return false; 
+         
    }
+   
    return true; 
+   
 }
+
 
 int main() { 
+
    int num; 
+   
    cout << "Enter a number: "; 
+   
    cin >> num; 
+   
 
    try { 
+   
       if (isPrime(num)) 
+      
       cout << num << " is a prime number.\n"; 
+      
       else 
+      
          cout << num << " is not a prime number.\n"; 
+         
    } catch (PrimeException& e) { 
+   
       cout << "Eггог: " <<e.what() << endl; 
+      
    } 
+   
    return 0;    
+   
 }
+
 
 
 ##13
 
 #include <iostream using namespace std; 
 
+
 class Student { 
+
 public: 
+
    int rollNo; string name; 
+   
    string className; 
+   
    int year; 
+   
    float totalMarks; 
+   
 
    void input() { 
+   
       cout << "Enter Roll No, Name, Class, Year, and Total Marks: ";
+      
       cin>> rollNo >> name>> className >> year>> totalMarks; 
+      
    } 
 
    void display() { 
+   
       cout << "Roll No: " <<rollNo <<", Name: "<< name 
+      
            << " , Class: " << className << ",Year:" <<year 
+           
            << " , Total Marks: " << totalMarks << endl; 
+           
    } 
+   
 }; 
 
+
 int main() { 
+
    Student students [5]; 
+   
  
    // Taking input for 5 students 
+   
    for (int i = 0; i < 5; i++) { 
+   
       cout << "Enter details for Student " << i +1 << ":\n"; 
+      
       students[i].input(); 
+      
    } 
 cout<<"\nStudent Details: \n"; 
+
 for (int i=0; i < 5; 1++) { 
+
 students[i].display(); 
+
 } 
+
 return 0; 
+
 } 
+
 
 
 ##14
 #include <cstdio>  // For file handling functions
 
+
 int main() {
+
     FILE *source, *destination;
+    
     char ch;
+    
 
     // Open the source file in read mode
+
+    
     source = fopen("source.txt", "r");
+    
     if (source == nullptr) {
+    
         printf("Error: Source file not found or could not be opened.\n");
+        
         return 1;  // Exit if source file can't be opened
+        
     }
+    
 
     // Open the destination file in write mode
+    
     destination = fopen("destination.txt", "w");
+    
     if (destination == nullptr) {
+    
         printf("Error: Could not open destination file for writing.\n");
+        
         fclose(source);  // Close source file before exiting
+        
         return 1; 
+        
     }
+    
 
     // Copy contents from source to destination
+    
     while ((ch = fgetc(source)) != EOF) {
+    
         fputc(ch, destination);
+        
     }
+    
 
     printf("File copy successful.\n");
+    
 
     // Close both files
+    
     fclose(source);
+    
     fclose(destination);
+    
 
     return 0;
+    
 }
 
 
