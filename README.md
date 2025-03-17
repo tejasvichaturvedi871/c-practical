@@ -1,9 +1,13 @@
 # Cpp-practical
-code ##c-practical-
+code
+##c-practical-
+
 
 ## 1
 #include <iostream> 
+
 #include <vector> 
+
 #include <set> 
  
 double seriesSum(int n) { 
