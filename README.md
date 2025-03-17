@@ -1,8 +1,10 @@
 # Cpp-practical
 # Practical 1
 ![Image](https://github.com/user-attachments/assets/76ffaa46-ba24-4a1e-9100-9056000e9d63)
-
-
+# Practical 2
+![Image](https://github.com/user-attachments/assets/7aff984d-bff7-49ab-9e0b-81d590403226)
+# Practical 3
+![Image](https://github.com/user-attachments/assets/8969d6b1-6d59-4e8d-a275-d4d014bd523b)
 # Practical 4
 ![Image](https://github.com/user-attachments/assets/6343487c-2de6-4fe9-9970-53ac6e5585e5)
 
