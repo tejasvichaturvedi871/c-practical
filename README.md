@@ -1175,23 +1175,7 @@ int main() {
 
 ![Image](https://github.com/user-attachments/assets/c0ffb5c8-ccba-4a7b-a7b1-02d6b0c9b34d)
 ##c-practical-
-## 1
-#include <iostream> 
-#include <vector> 
-#include <set> 
- 
-double seriesSum(int n) { 
-   double sum=0; 
-   for (int i =1; i <= n; i++) {  
-      double term 1.0/ pow(1, 1); 
-      if ( i% 2==0) {
-         sum = term;
-      } else { 
-         sum += term;
-      }
-   } 
-   return sum; 
-} 
+
 int main() {  
    int n; 
    cout << "Enter the number of terms: "; 
