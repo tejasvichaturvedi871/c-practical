@@ -1,6 +1,5 @@
 # Cpp-practical
 code
-##c-practical-
 
 
 ## 1
